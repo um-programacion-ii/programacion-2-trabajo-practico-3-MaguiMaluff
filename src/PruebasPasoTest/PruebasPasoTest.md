@@ -12,7 +12,9 @@
 ## Tests Préstamo
 
 ![Image](basico_prestamo.png)
+![Image](mock_prestamo.png)
 
 ## Tests Sistema Préstamo
 
 ![Image](basico_sist.png)
+![Image](mock_sist.png)
