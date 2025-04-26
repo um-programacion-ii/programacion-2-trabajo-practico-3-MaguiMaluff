@@ -3,12 +3,16 @@ package Servicios;
 import Clases.Libro;
 import Clases.Prestamo;
 import Clases.Usuario;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import java.util.*;
 
+@Setter
+@Getter
 public class GestionUsuarios {
     private List<Usuario> usuarios = new ArrayList<>();
     private SistemaPrestamo sistema;
