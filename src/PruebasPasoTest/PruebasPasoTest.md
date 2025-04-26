@@ -18,3 +18,11 @@
 
 ![Image](basico_sist.png)
 ![Image](mock_sist.png)
+
+## Tests Usuario
+
+![Image](basico_usuario.png)
+
+## Tests Gestion Usuarios
+
+![Image](mock_gestor_usuarios.png)
