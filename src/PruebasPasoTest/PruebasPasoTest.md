@@ -10,3 +10,9 @@
 ![Image](todos_catalogo_test.png)
 
 ## Tests Préstamo
+
+![Image](basico_prestamo.png)
+
+## Tests Sistema Préstamo
+
+![Image](basico_sist.png)
