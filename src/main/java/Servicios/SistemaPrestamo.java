@@ -3,9 +3,16 @@ package Servicios;
 import Clases.Estado;
 import Clases.Libro;
 import Clases.Prestamo;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.HashMap;
 import java.util.Map;
+
+@Getter
+@Setter
+@NoArgsConstructor
 
 public class SistemaPrestamo {
     private Catalogo catalogo;
