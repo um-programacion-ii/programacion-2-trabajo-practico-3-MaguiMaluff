@@ -6,7 +6,6 @@ import lombok.*;
 @Setter
 @Getter
 @AllArgsConstructor
-@NoArgsConstructor
 
 public class Libro {
     private String isbn;
