@@ -2,10 +2,12 @@ package Servicios;
 
 import Clases.Estado;
 import Clases.Libro;
+import lombok.Getter;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Getter
 public class Catalogo {
     private List<Libro> catalogo = new ArrayList<>();
 
