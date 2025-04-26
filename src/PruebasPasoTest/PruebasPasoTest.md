@@ -7,5 +7,6 @@
 ## Tests Catálogo
 
 ![Image](agregarlibros_tets.png)
+![Image](todos_catalogo_test.png)
 
 ## Tests Préstamo
