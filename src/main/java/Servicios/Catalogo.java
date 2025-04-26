@@ -15,19 +15,20 @@ public class Catalogo {
         catalogo.add(libro);
     }
 
-    public void buscarLibroISBN(String isbn) {
+    public Libro buscarLibroISBN(String isbn) {
         for (Libro libro : catalogo) {
             if (libro.getIsbn().equals(isbn)) {
-                System.out.println(libro.toString());
+                return libro;
             }
-        }
+        }return null;
     }
 
-    public void obtenerLibrosDisponibles() {
+    public List obtenerLibrosDisponibles() {
+        List<Libro> disponibles = new ArrayList<>();
         for (Libro libro : catalogo) {
             if (libro.getEstado().equals(Estado.DISPONIBLE)) {
-                System.out.println(libro.toString());
+               disponibles.add(libro);
             }
-        }
+        }return disponibles;
     }
 }
